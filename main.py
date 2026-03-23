@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -17,6 +18,8 @@ STATE_FILE = BASE_DIR / "state.json"
 REPORT_FILE = BASE_DIR / "reporte_latest.md"
 SCRAPFLY_ENDPOINT = "https://api.scrapfly.io/scrape"
 PAGE_SIZE = 48
+MAX_PAGES_PER_SELLER = 3
+MAX_SECONDS_PER_SELLER = 90
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
@@ -76,8 +79,7 @@ def fetch_html_via_scrapfly(url, scrapfly_key):
             "url": url,
             "country": "uy",
             "proxy_pool": "public_residential_pool",
-            "render_js": "true",
-            "rendering_wait": "4000",
+            "render_js": "false",
         }
     )
     request_url = f"{SCRAPFLY_ENDPOINT}?{params}"
@@ -160,9 +162,11 @@ def fetch_seller_catalog(seller, scrapfly_key):
     seller_id = extract_seller_id(seller)
     seller_name = seller.get("seller_name", "")
     items = {}
+    seller_start = time.monotonic()
 
     # Primera página
     first_url = f"https://listado.mercadolibre.com.uy/jm/search?seller_id={seller_id}"
+    logging.info("Seller %s: scrapeando página 1", seller_name)
     html = fetch_html_via_scrapfly(first_url, scrapfly_key)
     page_items = parse_items_from_html(html, seller_name)
     items.update(page_items)
@@ -173,17 +177,27 @@ def fetch_seller_catalog(seller, scrapfly_key):
     if total is None or total <= PAGE_SIZE:
         return items
 
-    # Páginas siguientes: offset 49, 97, 145, ...
+    # Páginas siguientes con límites operativos
     offset = PAGE_SIZE + 1
+    page_num = 2
     while offset <= total:
+        elapsed = time.monotonic() - seller_start
+        if page_num > MAX_PAGES_PER_SELLER:
+            logging.warning("Seller %s: límite de páginas (%s) alcanzado, cortando con %s items", seller_name, MAX_PAGES_PER_SELLER, len(items))
+            break
+        if elapsed > MAX_SECONDS_PER_SELLER:
+            logging.warning("Seller %s: límite de tiempo (%ss) alcanzado en pág %s, cortando con %s items", seller_name, MAX_SECONDS_PER_SELLER, page_num, len(items))
+            break
         page_url = f"https://listado.mercadolibre.com.uy/search-jm_Desde_{offset}_NoIndex_True"
+        logging.info("Seller %s: scrapeando página %s (offset=%s)", seller_name, page_num, offset)
         html = fetch_html_via_scrapfly(page_url, scrapfly_key)
         page_items = parse_items_from_html(html, seller_name)
         if not page_items:
             break
         items.update(page_items)
-        logging.info("Seller %s: offset=%s, items acumulados=%s", seller_name, offset, len(items))
+        logging.info("Seller %s: pág %s=%s items, acumulados=%s", seller_name, page_num, len(page_items), len(items))
         offset += PAGE_SIZE
+        page_num += 1
 
     return items
 
