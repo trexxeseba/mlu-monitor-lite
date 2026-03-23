@@ -19,6 +19,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,13 +43,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add state.json reporte_latest.md
-          git stash
-          git pull --rebase origin main
-          git stash pop || true
-          git add state.json reporte_latest.md
           if git diff --cached --quiet; then
             echo "Sin cambios para commitear."
           else
             git commit -m "chore: update state and report [skip ci]"
-            git push origin main
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
