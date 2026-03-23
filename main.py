@@ -72,6 +72,27 @@ def extract_seller_id(seller):
     raise ValueError(f"No se pudo extraer seller_id desde seller_url: {seller_url}")
 
 
+def confirm_item_removed(item_id, scrapfly_key):
+    """Hace 1 request liviano (sin render_js) a la URL individual del item.
+    Devuelve True si el item está confirmado como dado de baja (HTTP 404).
+    Devuelve False si no se puede confirmar (challenge, error de red, etc.).
+    """
+    url = f"https://www.mercadolibre.com.uy/p/{item_id}"
+    params = urlencode({
+        "key": scrapfly_key,
+        "url": url,
+        "country": "uy",
+        "proxy_pool": "public_residential_pool",
+    })
+    try:
+        with urlopen(f"{SCRAPFLY_ENDPOINT}?{params}", timeout=30) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+            status = payload.get("result", {}).get("status_code")
+            return status == 404
+    except Exception:
+        return False
+
+
 def fetch_html_via_scrapfly(url, scrapfly_key):
     params = urlencode(
         {
@@ -237,11 +258,20 @@ def build_report(today, events, errors):
         lines.append("- Sin novedades")
     lines.append("")
 
-    lines.append("## Bajas")
+    lines.append("## Bajas confirmadas")
     if events["removed"]:
         for item in events["removed"]:
             lines.append(
                 f"- {item['title']} — {item['seller_name']} — último precio: {format_price(item['price'])}"
+            )
+    else:
+        lines.append("- Sin novedades")
+    lines.append("")
+    lines.append("## Bajas pendientes de confirmar")
+    if events.get("removed_pendiente"):
+        for item in events["removed_pendiente"]:
+            lines.append(
+                f"- {item['title']} — {item['seller_name']} — último precio: {format_price(item['price'])} (no apareció en listado, URL no devuelve 404)"
             )
     else:
         lines.append("- Sin novedades")
@@ -302,6 +332,7 @@ def main():
     events = {
         "new": [],
         "removed": [],
+        "removed_pendiente": [],
         "price_changed": [],
         "title_changed": [],
         "salida_probable_media": [],
@@ -388,7 +419,15 @@ def main():
         for item_id, previous in seller_previous.items():
             if item_id in seen_ids:
                 continue
-            missing_days = int(previous.get("missing_days", 0) or 0) + 1
+            prev_missing = int(previous.get("missing_days", 0) or 0)
+            # Confirmar baja via URL individual (sin render_js) antes de incrementar missing_days
+            baja_confirmada = confirm_item_removed(item_id, scrapfly_key)
+            if baja_confirmada:
+                missing_days = prev_missing + 1
+                logging.info("Baja confirmada (404): %s / %s", seller_name, item_id)
+            else:
+                missing_days = prev_missing  # no incrementar si no se confirma
+                logging.info("Baja NO confirmada (no 404): %s / %s — missing_days se mantiene en %s", seller_name, item_id, prev_missing)
             record = {
                 "seller_name": seller_name,
                 "item_id": item_id,
@@ -399,10 +438,13 @@ def main():
                 "category": previous.get("category") or "",
                 "last_seen_date": previous.get("last_seen_date") or state.get("last_run_date") or today,
                 "missing_days": missing_days,
+                "baja_confirmada": baja_confirmada,
             }
             updated_items[item_id] = record
-            if missing_days == 1:
+            if baja_confirmada and missing_days == 1:
                 events["removed"].append(record.copy())
+            elif not baja_confirmada and prev_missing == 0:
+                events["removed_pendiente"].append(record.copy())
             elif missing_days == 3:
                 probable = record.copy()
                 probable["level"] = "media"
