@@ -9,13 +9,14 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import urlopen
 
+from bs4 import BeautifulSoup
+
 BASE_DIR = Path(__file__).resolve().parent
 SELLERS_FILE = BASE_DIR / "sellers.json"
 STATE_FILE = BASE_DIR / "state.json"
 REPORT_FILE = BASE_DIR / "reporte_latest.md"
 SCRAPFLY_ENDPOINT = "https://api.scrapfly.io/scrape"
-MELI_SEARCH_ENDPOINT = "https://api.mercadolibre.com/sites/MLU/search"
-PAGE_SIZE = 50
+PAGE_SIZE = 48
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
@@ -68,21 +69,28 @@ def extract_seller_id(seller):
     raise ValueError(f"No se pudo extraer seller_id desde seller_url: {seller_url}")
 
 
-def fetch_json_via_scrapfly(url, scrapfly_key):
+def fetch_html_via_scrapfly(url, scrapfly_key):
     params = urlencode(
         {
             "key": scrapfly_key,
             "url": url,
             "country": "uy",
-            "retry": "true",
-            "proxified_response": "true",
-            "format": "json",
+            "proxy_pool": "public_residential_pool",
+            "render_js": "true",
+            "rendering_wait": "4000",
         }
     )
     request_url = f"{SCRAPFLY_ENDPOINT}?{params}"
     try:
-        with urlopen(request_url, timeout=160) as response:
-            return json.loads(response.read().decode("utf-8"))
+        with urlopen(request_url, timeout=180) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+            result = payload.get("result", {})
+            if not result.get("success"):
+                err = result.get("error") or {}
+                raise RuntimeError(
+                    f"Scrapfly error {err.get('code','?')}: {err.get('message','')[:200]}"
+                )
+            return result.get("content", "")
     except HTTPError as exc:
         body = exc.read().decode("utf-8", errors="replace")
         raise RuntimeError(f"HTTP {exc.code} en Scrapfly: {body[:300]}") from exc
@@ -90,37 +98,92 @@ def fetch_json_via_scrapfly(url, scrapfly_key):
         raise RuntimeError(f"Error de red en Scrapfly: {exc.reason}") from exc
 
 
+def parse_items_from_html(html, seller_name):
+    soup = BeautifulSoup(html, "html.parser")
+    items = {}
+    for li in soup.select("li.ui-search-layout__item"):
+        title_tag = li.select_one("a.poly-component__title")
+        if not title_tag:
+            continue
+        title = title_tag.get_text(strip=True)
+        link = title_tag.get("href", "")
+
+        # item_id: preferir wid= param, luego primer MLU en el link
+        wid_match = re.search(r"wid=(MLU\d+)", link)
+        id_match = re.search(r"(MLU\d+)", link)
+        item_id = (wid_match.group(1) if wid_match else (id_match.group(1) if id_match else "")).strip()
+        if not item_id:
+            continue
+
+        # price: fracción + centavos opcionales
+        price_tag = li.select_one(".andes-money-amount__fraction")
+        price = None
+        if price_tag:
+            frac = price_tag.get_text(strip=True).replace(".", "").replace(",", "")
+            cents_tag = li.select_one(".andes-money-amount__cents")
+            if cents_tag:
+                cents = cents_tag.get_text(strip=True).replace(",", ".")
+                frac = f"{frac}.{cents}"
+            price = normalize_price(frac)
+
+        # thumbnail
+        img = li.select_one("img.poly-component__picture")
+        thumbnail = img.get("src", "") if img else ""
+
+        items[item_id] = {
+            "seller_name": seller_name,
+            "item_id": item_id,
+            "title": title,
+            "price": price,
+            "link": link,
+            "thumbnail": thumbnail,
+            "category": "",
+        }
+    return items
+
+
+def get_total_from_html(html):
+    soup = BeautifulSoup(html, "html.parser")
+    tag = soup.select_one(".ui-search-search-result__quantity-results")
+    if tag:
+        m = re.search(r"(\d[\d.]*)", tag.get_text().replace(".", ""))
+        if m:
+            return int(m.group(1).replace(".", ""))
+    # fallback: buscar en JSON embebido
+    m = re.search(r'"total"\s*:\s*(\d+)', html)
+    if m:
+        return int(m.group(1))
+    return None
+
+
 def fetch_seller_catalog(seller, scrapfly_key):
     seller_id = extract_seller_id(seller)
-    offset = 0
+    seller_name = seller.get("seller_name", "")
     items = {}
-    total = None
 
-    while total is None or offset < total:
-        target_url = f"{MELI_SEARCH_ENDPOINT}?seller_id={seller_id}&offset={offset}&limit={PAGE_SIZE}"
-        payload = fetch_json_via_scrapfly(target_url, scrapfly_key)
-        results = payload.get("results", [])
-        paging = payload.get("paging", {})
-        total = paging.get("total", 0)
-        limit = paging.get("limit") or PAGE_SIZE
+    # Primera página
+    first_url = f"https://listado.mercadolibre.com.uy/jm/search?seller_id={seller_id}"
+    html = fetch_html_via_scrapfly(first_url, scrapfly_key)
+    page_items = parse_items_from_html(html, seller_name)
+    items.update(page_items)
 
-        for result in results:
-            item_id = str(result.get("id") or "").strip()
-            if not item_id:
-                continue
-            items[item_id] = {
-                "seller_name": seller["seller_name"],
-                "item_id": item_id,
-                "title": (result.get("title") or "").strip(),
-                "price": normalize_price(result.get("price")),
-                "link": result.get("permalink") or result.get("url") or "",
-                "thumbnail": result.get("thumbnail") or "",
-                "category": result.get("category_id") or result.get("category") or "",
-            }
+    total = get_total_from_html(html)
+    logging.info("Seller %s: total=%s, pag1=%s items", seller_name, total, len(page_items))
 
-        if not results:
+    if total is None or total <= PAGE_SIZE:
+        return items
+
+    # Páginas siguientes: offset 49, 97, 145, ...
+    offset = PAGE_SIZE + 1
+    while offset <= total:
+        page_url = f"https://listado.mercadolibre.com.uy/search-jm_Desde_{offset}_NoIndex_True"
+        html = fetch_html_via_scrapfly(page_url, scrapfly_key)
+        page_items = parse_items_from_html(html, seller_name)
+        if not page_items:
             break
-        offset += limit
+        items.update(page_items)
+        logging.info("Seller %s: offset=%s, items acumulados=%s", seller_name, offset, len(items))
+        offset += PAGE_SIZE
 
     return items
 
@@ -144,44 +207,72 @@ def build_report(today, events, errors):
     ]
 
     if errors:
-        lines.extend(["## Errores", ""])
-        for error in errors:
-            lines.append(f"- {error}")
+        lines.append("## Errores")
+        for e in errors:
+            lines.append(f"- {e}")
         lines.append("")
 
-    sections = [
-        ("Nuevas", events["new"], lambda e: f"- {e['seller_name']} / {e['title']} / {format_price(e['price'])} / {e['link']}"),
-        ("Bajas", events["removed"], lambda e: f"- {e['seller_name']} / {e['title']} / {format_price(e['price'])} / {e['link']}"),
-        (
-            "Cambios de precio",
-            events["price_changed"],
-            lambda e: f"- {e['seller_name']} / {e['title']} / {format_price(e['old_price'])} / {format_price(e['new_price'])} / {e['link']}",
-        ),
-        (
-            "Cambios de título",
-            events["title_changed"],
-            lambda e: f"- {e['seller_name']} / {e['old_title']} → {e['new_title']} / {format_price(e['price'])} / {e['link']}",
-        ),
-        (
-            "Salidas probables",
-            events["salida_probable_media"] + events["salida_probable_alta"],
-            lambda e: f"- {e['level']} / {e['seller_name']} / {e['title']} / {format_price(e['price'])} / {e['link']}",
-        ),
-    ]
+    lines.append("## Nuevas")
+    if events["new"]:
+        for item in events["new"]:
+            lines.append(
+                f"- [{item['title']}]({item['link']}) — {item['seller_name']} — {format_price(item['price'])}"
+            )
+    else:
+        lines.append("- Sin novedades")
+    lines.append("")
 
-    for title, data, formatter in sections:
-        lines.extend([f"## {title}", ""])
-        if not data:
-            lines.append("- Sin novedades")
-        else:
-            for entry in data:
-                lines.append(formatter(entry))
-        lines.append("")
+    lines.append("## Bajas")
+    if events["removed"]:
+        for item in events["removed"]:
+            lines.append(
+                f"- {item['title']} — {item['seller_name']} — último precio: {format_price(item['price'])}"
+            )
+    else:
+        lines.append("- Sin novedades")
+    lines.append("")
 
-    return "\n".join(lines).rstrip() + "\n"
+    lines.append("## Cambios de precio")
+    if events["price_changed"]:
+        for item in events["price_changed"]:
+            lines.append(
+                f"- [{item['title']}]({item['link']}) — {item['seller_name']} — "
+                f"{format_price(item['old_price'])} → {format_price(item['new_price'])}"
+            )
+    else:
+        lines.append("- Sin novedades")
+    lines.append("")
+
+    lines.append("## Cambios de título")
+    if events["title_changed"]:
+        for item in events["title_changed"]:
+            lines.append(
+                f"- [{item['new_title']}]({item['link']}) — {item['seller_name']} — "
+                f"antes: {item['old_title']}"
+            )
+    else:
+        lines.append("- Sin novedades")
+    lines.append("")
+
+    lines.append("## Salidas probables")
+    probable = events.get("salida_probable_media", []) + events.get("salida_probable_alta", [])
+    if probable:
+        for item in probable:
+            lines.append(
+                f"- {item['title']} — {item['seller_name']} — nivel: {item.get('level','?')} — "
+                f"último precio: {format_price(item['price'])}"
+            )
+    else:
+        lines.append("- Sin novedades")
+    lines.append("")
+
+    return "\n".join(lines)
 
 
 def main():
+    now = datetime.now(timezone.utc)
+    today = now.strftime("%Y-%m-%d")
+
     scrapfly_key = os.getenv("SCRAPFLY_KEY", "").strip()
     if not scrapfly_key:
         raise SystemExit("Falta la variable de entorno SCRAPFLY_KEY")
@@ -191,11 +282,7 @@ def main():
         raise SystemExit("sellers.json debe contener una lista")
 
     state = ensure_state_shape(load_json_file(STATE_FILE, {}))
-    previous_items = state["items"]
-    updated_items = {}
-
-    now = datetime.now(timezone.utc)
-    today = now.date().isoformat()
+    previous_items = state.get("items", {})
 
     events = {
         "new": [],
@@ -206,19 +293,18 @@ def main():
         "salida_probable_alta": [],
     }
     errors = []
+    updated_items = {}
 
     for seller in sellers:
         seller_name = seller.get("seller_name", "").strip()
         if not seller_name:
             logging.error("Seller sin seller_name, se omite")
             continue
-
         seller_previous = {
             item_id: dict(item)
             for item_id, item in previous_items.items()
             if item.get("seller_name") == seller_name
         }
-
         try:
             current_items = fetch_seller_catalog(seller, scrapfly_key)
             logging.info("Seller %s procesado con %s items", seller_name, len(current_items))
@@ -227,7 +313,6 @@ def main():
             errors.append(f"{seller_name}: {exc}")
             updated_items.update(seller_previous)
             continue
-
         previous_count = len(seller_previous)
         current_count = len(current_items)
         suspicious_incomplete = previous_count > 0 and (
@@ -243,13 +328,10 @@ def main():
             errors.append(message)
             updated_items.update(seller_previous)
             continue
-
         seen_ids = set()
-
         for item_id, current in current_items.items():
             previous = seller_previous.get(item_id)
             seen_ids.add(item_id)
-
             record = {
                 "seller_name": seller_name,
                 "item_id": item_id,
@@ -261,7 +343,6 @@ def main():
                 "last_seen_date": today,
                 "missing_days": 0,
             }
-
             if previous is None:
                 events["new"].append(record.copy())
             else:
@@ -288,9 +369,7 @@ def main():
                             "link": current["link"],
                         }
                     )
-
             updated_items[item_id] = record
-
         for item_id, previous in seller_previous.items():
             if item_id in seen_ids:
                 continue
@@ -307,7 +386,6 @@ def main():
                 "missing_days": missing_days,
             }
             updated_items[item_id] = record
-
             if missing_days == 1:
                 events["removed"].append(record.copy())
             elif missing_days == 3:
@@ -318,11 +396,9 @@ def main():
                 probable = record.copy()
                 probable["level"] = "alta"
                 events["salida_probable_alta"].append(probable)
-
     state["last_run_at"] = now.isoformat()
     state["last_run_date"] = today
     state["items"] = dict(sorted(updated_items.items(), key=lambda pair: (pair[1].get("seller_name", ""), pair[0])))
-
     save_json_file(STATE_FILE, state)
     REPORT_FILE.write_text(build_report(today, events, errors), encoding="utf-8")
     logging.info("Corrida finalizada. Estado y reporte actualizados.")
