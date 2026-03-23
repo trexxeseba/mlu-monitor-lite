@@ -458,6 +458,13 @@ def main():
     state["items"] = dict(sorted(updated_items.items(), key=lambda pair: (pair[1].get("seller_name", ""), pair[0])))
     save_json_file(STATE_FILE, state)
     REPORT_FILE.write_text(build_report(today, events, errors), encoding="utf-8")
+    # Guardar eventos para el email
+    events_export = {k: list(v) if isinstance(v, list) else v for k, v in events.items()}
+    events_export["errors"] = errors
+    events_export["run_date"] = today
+    events_export["run_at"] = now.isoformat()
+    events_export["items_total"] = len(state["items"])
+    save_json_file(BASE_DIR / "events.json", events_export)
     logging.info("Corrida finalizada. Estado y reporte actualizados.")
 
 
