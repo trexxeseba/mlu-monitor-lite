@@ -79,7 +79,7 @@ def fetch_html_via_scrapfly(url, scrapfly_key):
             "url": url,
             "country": "uy",
             "proxy_pool": "public_residential_pool",
-            "render_js": "false",
+            "render_js": "true",
         }
     )
     request_url = f"{SCRAPFLY_ENDPOINT}?{params}"
