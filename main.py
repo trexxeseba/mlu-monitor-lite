@@ -186,9 +186,9 @@ def fetch_seller_catalog(seller, scrapfly_key):
     items = {}
     seller_start = time.monotonic()
 
-    # Primera página
+    # Primera página — siempre con seller_id en la URL
     first_url = f"https://listado.mercadolibre.com.uy/jm/search?seller_id={seller_id}"
-    logging.info("Seller %s: scrapeando página 1", seller_name)
+    logging.info("Seller %s: scrapeando página 1 — %s", seller_name, first_url)
     html = fetch_html_via_scrapfly(first_url, scrapfly_key)
     page_items = parse_items_from_html(html, seller_name)
     items.update(page_items)
@@ -199,7 +199,7 @@ def fetch_seller_catalog(seller, scrapfly_key):
     if total is None or total <= PAGE_SIZE:
         return items
 
-    # Páginas siguientes con límites operativos
+    # Páginas siguientes — SIEMPRE incluir seller_id para no contaminar con resultados ajenos
     offset = PAGE_SIZE + 1
     page_num = 2
     while offset <= total:
@@ -210,11 +210,13 @@ def fetch_seller_catalog(seller, scrapfly_key):
         if elapsed > MAX_SECONDS_PER_SELLER:
             logging.warning("Seller %s: límite de tiempo (%ss) alcanzado en pág %s, cortando con %s items", seller_name, MAX_SECONDS_PER_SELLER, page_num, len(items))
             break
-        page_url = f"https://listado.mercadolibre.com.uy/search-jm_Desde_{offset}_NoIndex_True"
-        logging.info("Seller %s: scrapeando página %s (offset=%s)", seller_name, page_num, offset)
+        # URL con seller_id y offset — evita contaminación cruzada
+        page_url = f"https://listado.mercadolibre.com.uy/jm/search?seller_id={seller_id}&_Desde_{offset}_NoIndex_True"
+        logging.info("Seller %s: scrapeando página %s — %s", seller_name, page_num, page_url)
         html = fetch_html_via_scrapfly(page_url, scrapfly_key)
         page_items = parse_items_from_html(html, seller_name)
         if not page_items:
+            logging.warning("Seller %s: página %s devolvió 0 items, cortando", seller_name, page_num)
             break
         items.update(page_items)
         logging.info("Seller %s: pág %s=%s items, acumulados=%s", seller_name, page_num, len(page_items), len(items))
@@ -340,6 +342,8 @@ def main():
     }
     errors = []
     updated_items = {}
+    # Para validation gate: acumular sets de item_ids por seller
+    seller_itemsets: dict[str, set] = {}
 
     for seller in sellers:
         seller_name = seller.get("seller_name", "").strip()
@@ -359,6 +363,25 @@ def main():
             errors.append(f"{seller_name}: {exc}")
             updated_items.update(seller_previous)
             continue
+
+        # Validation gate: detectar contaminación cruzada con sellers ya procesados
+        current_ids = set(current_items.keys())
+        for prev_seller_name, prev_ids in seller_itemsets.items():
+            overlap = current_ids & prev_ids
+            overlap_ratio = len(overlap) / max(len(current_ids), 1)
+            if len(overlap) >= 5 and overlap_ratio >= 0.3:
+                msg = (
+                    f"CONTAMINACION: {seller_name} comparte {len(overlap)} items "
+                    f"({overlap_ratio:.0%}) con {prev_seller_name} — seller descartado"
+                )
+                logging.error(msg)
+                errors.append(msg)
+                updated_items.update(seller_previous)
+                current_ids = set()  # no agregar al gate
+                break
+        else:
+            if current_ids:
+                seller_itemsets[seller_name] = current_ids
         previous_count = len(seller_previous)
         current_count = len(current_items)
         suspicious_incomplete = previous_count > 0 and (
@@ -458,12 +481,19 @@ def main():
     state["items"] = dict(sorted(updated_items.items(), key=lambda pair: (pair[1].get("seller_name", ""), pair[0])))
     save_json_file(STATE_FILE, state)
     REPORT_FILE.write_text(build_report(today, events, errors), encoding="utf-8")
+    # Determinar si la corrida está contaminada
+    contamination_errors = [e for e in errors if "CONTAMINACION" in e]
+    run_contaminated = len(contamination_errors) > 0
+    if run_contaminated:
+        logging.error("Corrida marcada como CONTAMINADA: %s sellers descartados", len(contamination_errors))
     # Guardar eventos para el email
     events_export = {k: list(v) if isinstance(v, list) else v for k, v in events.items()}
     events_export["errors"] = errors
     events_export["run_date"] = today
     events_export["run_at"] = now.isoformat()
     events_export["items_total"] = len(state["items"])
+    events_export["run_contaminated"] = run_contaminated
+    events_export["contamination_errors"] = contamination_errors
     save_json_file(BASE_DIR / "events.json", events_export)
     logging.info("Corrida finalizada. Estado y reporte actualizados.")
 
