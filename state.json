@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-03-24T09:54:07.962532+00:00",
+  "last_run_at": "2026-03-24T13:30:00.809138+00:00",
   "last_run_date": "2026-03-24",
   "items": {
     "MLU1053631546": {
@@ -263,14 +263,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_968352-MLC29817701923_042019-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1019984920": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU1019984920",
       "title": "Elf Camo Liquid Bronzer & Contour Bronzer Liquido Tono Del Maquillaje 3 Light",
       "price": 1650.5,
-      "link": "https://click1.mercadolibre.com.uy/mclics/clicks/external/MLU/count?a=QTJiS5To8iNlFZrIqLAPmrsjD59n7MAQu1oYQ0MxwnONPHE8CgRr%2Fl3DTQglU17%2BV%2FuHFE7w1dh11w0LsB5YCq2pLR%2FBH7nuDI68EhZD%2FGGPDoTVYBU42dkglUDNAELufIGQkGy2QR7Ooq6bEUp33yr0Dz3aD5whNveOXv5AafvaSFryDue7DLsmUmu6883B1E%2BGPH2MDqlwfmNyq0TQTGyZN5CFlXXPXsLovpqlmvlF%2Feyb1nxJyvpCaafMYfYT6dHn23XCEHyJ0vfXlvh78AEGo%2Bx3NyN8QMwARmG%2F6gc8blnbb6I75ZdTlgL4vCE%2FIY5YGBpKdfYHHitLSl2tBnwGUju%2FDfqfSiFSqDMqlE7EG5GFD7uZ%2BQz%2B6%2F7eLGKm6zVihs4Kt4%2FBOavP1mN10OJ8XVxQqUYwMbb1QSxUtqARK4nzjsZYL5XPCONqdootwvjHxvIGUC%2BjQhJVolCKmyV9E%2BM8nrB88FVg5o6fSi%2B6pHdLykiOS7oxI0R7zhAnixXaDoHH1HJjH1hAGkV24kKyyp%2B8yV3XEaEaYBQ8QLF1TckdYkEM9ZQ4uBJsf0XAdBabBcZk9dS7mUbIGvDJ2dzzHqkGCEhYdA32eDjOyQOIYj458yr0TijEhGlu2%2BpBnof8oubfHPXqeMvgKIkIydt%2FdN8HDYt0HnnGNYlmCdlJO40V1V9xlCVOhfTxqojTzxv4Mc0TDkgmd2cGowp%2F%2BVw%2Bz7PLBS%2FdPtDKGYnwVp3L%2BISn%2Bth0jXkSMvFswnwDoACE8FY4khnJYN8EIw6L%2BXgtV3O%2F3R1LAvU%2FstyM3HeWgyxBCDnnMrUlUbM3Pj0GjWBL9m3cvvpJMmLpbpFgPTXGomAfPQOsa%2FeCj1hXjSlq3mRwAJWqzEPPLK7EctXp%2BvpMzsLH%2BiEsdkx05S5T5UB7P8bfBYAOs8zFg4kwrpweA5D03JAuZH6w73hLcbITdtAyzBkloqKT3N%2FMMnUf3ulbhGr72aWU#polycard_client=search-desktop&is_advertising=true&searchVariation=MLU44468194&backend_model=sup_pads_rk_ent_v3_retsys&search_layout=grid&position=52&type=pad&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1019984920&sid=search",
+      "link": "https://click1.mercadolibre.com.uy/mclics/clicks/external/MLU/count?a=PSLqcra5Sp%2F7%2FST5PDcorONlDiUoNV8i7cxGOhcLfXv%2FQvTCjClKh04h60N9xRPpJufJ2fovXR703tnLHV2fLmJLDa5%2BoqlDPmeIb12v1qyz%2B5jy9DDY2SOsHlfq3LUvrvkdo5X5%2BKhtILgc339G7tIQT6cCWnzrIxrN3zzRzkIBWFuuubAtqXj%2FDMyHWRn74nrBNfZWfrHTfs4uuUanjTfdDyc8IjX5pF3ytDfZ7wu9Gg3AUquMMOwwCAU2v9hfg47QWVZPiiW6Yg9cKRR6lUHo3XtMjmkMwmXkxBfjG1Vx4pwX5YTZuTiFlUuuj5UscfTza0ka6Maw5TUDFtWRPaPsxzV4faSD%2FxswZWMP%2BhCuKwWcgSm3v1OiKrXS3NhUosb1ASlwzRNbZbc4H2Wqf9jARwyaDwOC4eH2j2%2F1HBaPatUb2nAyqiVJv8LgVJhvwYrvxDOEFuKyjMqQZmh8AQI1EEC%2Beymywq4W6UjOO3JkfMZBgJ92Z7RCJDPGubQnF6wN%2BAGG2%2F14Hg%2BNxoWZRwsDzApxWTOIS2HNPaxFGtyq1EH2Y2BeBfZB6PeCWG8D978uWj8RtFZQ3NTGEu9a%2FRmiJ49cQnvK%2FZb2ks6yZrThtnOCgP5KKX08z2UUJijLy9BowqHr67LMx2cYF3GNpWP6IzuLnmwflUBKUJceQOQe3yf7FtdHC7MwjOZ%2B2riusWojeeByuzJSDtEMb%2F11M2bQrkRd4QHgXrWJ8IPzPxfHgdO5zKI3U6VoKenz6Jbzbvi5OeFe9pe59d%2FkN8GQe9JKW0srNPDIkVLWhgcFMk7%2F8dTZzGB8MjBeE7SZqOaMx6XOkQZvgxaHuEesT69wjqPAyh7G%2B93qeLK32LEJojHNasxXyXLQVmUe5FrFRnYyKFsxUDgiaS%2BLF4ndN1NDQH3bfdZTeOIfHl8LvQiEXweEHtZQeSr6bLqbjMxJHRHY7lMIYDhm7QfmTqtQm1DfPOB2oin36xEe#polycard_client=search-desktop&is_advertising=true&searchVariation=MLU44468194&backend_model=sup_pads_rk_ent_v3_retsys&search_layout=grid&position=52&type=pad&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1019984920&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_608639-MLA80921925252_122024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -281,7 +282,7 @@
       "item_id": "MLU1031372620",
       "title": "Elmer Search And Find, De David Mckee. Editorial Walker Books En Inglés",
       "price": 890,
-      "link": "https://www.mercadolibre.com.uy/elmer-search-and-find-de-david-mckee-editorial-walker-books-en-ingles/p/MLU45787025#polycard_client=search-desktop&search_layout=grid&position=43&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1031372620&sid=search",
+      "link": "https://www.mercadolibre.com.uy/elmer-search-and-find-de-david-mckee-editorial-walker-books-en-ingles/p/MLU45787025#polycard_client=search-desktop&search_layout=grid&position=42&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1031372620&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_667244-MLA82176437067_012025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -292,7 +293,7 @@
       "item_id": "MLU1031411656",
       "title": "Elmer Search And Find Numbers, De David Mckee. Editorial Walker Books En Español",
       "price": 890,
-      "link": "https://www.mercadolibre.com.uy/elmer-search-and-find-numbers-de-david-mckee-editorial-walker-books-en-espanol/p/MLU45831940#polycard_client=search-desktop&search_layout=grid&position=46&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1031411656&sid=search",
+      "link": "https://www.mercadolibre.com.uy/elmer-search-and-find-numbers-de-david-mckee-editorial-walker-books-en-espanol/p/MLU45831940#polycard_client=search-desktop&search_layout=grid&position=43&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1031411656&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_979887-MLA82442318083_022025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -303,7 +304,7 @@
       "item_id": "MLU1047096028",
       "title": "Paquete De 6 Sillas Plegables Blancas Blanco",
       "price": 5924.44,
-      "link": "https://www.mercadolibre.com.uy/paquete-de-6-sillas-plegables-blancas-blanco/p/MLU56724356#polycard_client=search-desktop&search_layout=grid&position=9&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1047096028&sid=search",
+      "link": "https://www.mercadolibre.com.uy/paquete-de-6-sillas-plegables-blancas-blanco/p/MLU56724356#polycard_client=search-desktop&search_layout=grid&position=9&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1047096028&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_636721-MLA96237344698_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -318,7 +319,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_934415-CBT84803883248_052025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1053167720": {
       "seller_name": "CAAAD7314725",
@@ -329,7 +331,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_663871-MLA100259221604_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1053641402": {
       "seller_name": "CAAAD7314725",
@@ -340,7 +343,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_928724-CBT102312335799_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1053893604": {
       "seller_name": "CAAAD7314725",
@@ -351,7 +355,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_865078-CBT101018234365_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1054380378": {
       "seller_name": "CAAAD7314725",
@@ -362,7 +367,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_627775-CBT96802583982_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1055175874": {
       "seller_name": "CAAAD7314725",
@@ -373,7 +379,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_887209-CBT94024110455_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1056685002": {
       "seller_name": "CAAAD7314725",
@@ -384,7 +391,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_716776-CBT86959565634_072025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1056813970": {
       "seller_name": "CAAAD7314725",
@@ -395,7 +403,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_917577-CBT86516172921_062025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1057626484": {
       "seller_name": "CAAAD7314725",
@@ -406,7 +415,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_878867-CBT94507441258_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1060207904": {
       "seller_name": "CAAAD7314725",
@@ -429,7 +439,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_654828-CBT84583259697_052025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1060765218": {
       "seller_name": "CAAAD7314725",
@@ -440,7 +451,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_766791-CBT93167667260_092025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1061013056": {
       "seller_name": "CAAAD7314725",
@@ -451,7 +463,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_651952-CBT88389201901_072025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1069760656": {
       "seller_name": "CAAAD7314725",
@@ -462,14 +475,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_894393-MLA81907359954_012025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1070738280": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU1070738280",
       "title": "Funko Pop! Bob Esponja Movies Search Sq Pants Calamardo",
       "price": 1190,
-      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-pants-calamardo/p/MLU62407291#polycard_client=search-desktop&search_layout=grid&position=14&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1070738280&sid=search",
+      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-pants-calamardo/p/MLU62407291#polycard_client=search-desktop&search_layout=grid&position=14&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1070738280&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_685857-MLA99116846117_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -480,7 +494,7 @@
       "item_id": "MLU1070738286",
       "title": "Funko Pop! Bob Esponja Movies Search Square Pants Gary",
       "price": 1190,
-      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-square-pants-gary/p/MLU62406925#polycard_client=search-desktop&search_layout=grid&position=11&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1070738286&sid=search",
+      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-square-pants-gary/p/MLU62406925#polycard_client=search-desktop&search_layout=grid&position=11&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1070738286&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_760365-MLA99114423009_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -491,7 +505,7 @@
       "item_id": "MLU1070764394",
       "title": "Funko Pop! Bob Esponja Movies Search Sq Pants Bob Esponja",
       "price": 1190,
-      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-pants-bob-esponja/p/MLU62407235#polycard_client=search-desktop&search_layout=grid&position=22&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1070764394&sid=search",
+      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-pants-bob-esponja/p/MLU62407235#polycard_client=search-desktop&search_layout=grid&position=22&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1070764394&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_601327-MLA98638811104_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -502,7 +516,7 @@
       "item_id": "MLU1070829428",
       "title": "Funko Pop! Bob Esponja Movies Search Sq Pants Patricio",
       "price": 1190,
-      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-pants-patricio/p/MLU62407258#polycard_client=search-desktop&search_layout=grid&position=13&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1070829428&sid=search",
+      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-pants-patricio/p/MLU62407258#polycard_client=search-desktop&search_layout=grid&position=13&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1070829428&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_923572-MLA98639129420_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -513,7 +527,7 @@
       "item_id": "MLU1070868272",
       "title": "Funko Pop! Bob Esponja Movies Search Sq Pants Don Cangrejo",
       "price": 1190,
-      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-pants-don-cangrejo/p/MLU62407106#polycard_client=search-desktop&search_layout=grid&position=10&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1070868272&sid=search",
+      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-pants-don-cangrejo/p/MLU62407106#polycard_client=search-desktop&search_layout=grid&position=10&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1070868272&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_617945-MLA98639104742_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -524,7 +538,7 @@
       "item_id": "MLU1070972130",
       "title": "Funko Pop! Bob Esponja Movies Search Sq P Bob Fantasma Glow",
       "price": 1190,
-      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-p-bob-fantasma-glow/p/MLU62407003#polycard_client=search-desktop&search_layout=grid&position=18&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1070972130&sid=search",
+      "link": "https://www.mercadolibre.com.uy/funko-pop-bob-esponja-movies-search-sq-p-bob-fantasma-glow/p/MLU62407003#polycard_client=search-desktop&search_layout=grid&position=18&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1070972130&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_876965-MLA99115159037_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -535,7 +549,7 @@
       "item_id": "MLU1096421742",
       "title": "Polvo iluminador oscuro Kylighter 050 Cheers de Kylie Cosmetics",
       "price": 2490.1,
-      "link": "https://click1.mercadolibre.com.uy/mclics/clicks/external/MLU/count?a=nTrjiuZb%2FlKc%2FbJlexHnC%2B9krL6gHAfyYPamRtMrJ%2FOd9y5LcetIzTLqC9RYiTRgYPrQdpExfhGcEsbPdSeZQXyICrau%2FWdwk0TtSgLCNO3ki1VJEqjVXWhV6eLt85IXYIgEf91EBDe3izgkWYo30L8rB040HFyv7%2BX8z8uKRPnXtTa7Mz0vSYKn7kPSViYz9IlQfNHiREF922A0Dn1%2B7IERbNGW6AWQljhVsA3E67XLSL1Nit92rgMm9fubu%2BzrETV4P9j%2FM8gtcLHxMxiVYsxPbFbqzwHsQKrHGUtsz62HybEK5xyTT0U2Fl7%2FHPyMNDieczwS2DiIQHsGqys9%2B640AKtOrX9b5BpkJiBkLhXzRjpSPqjMQtpi%2Be1i023aHfXEowE1BVKpUvlhJIIbm1e2oWe91KKlD9zvMZpFrJN%2BJqY8B1X3L1%2BywtFzx5QaflAzMfmlRyUjsCitSuuhLjwST%2FqCWcVYU0OnIa0WkmEheCcb8pn%2Fq8XJtsSenquzL8GV%2Ft0jlx8P3znxAQA1Poq3Z7%2FNDtV1xmpPrBOAOHM7oCUZYRzKoJEy9h%2BZQ%2Fe5MALk3BI6VrKnctk1Eo7djQfgQ6I7KErDNNaGayshuiAoVhmT%2FC6Q%2BqSVLUiX4gGi6QMES26yJXDEZ4x6SSgB5pJ1N%2B0RKzlCapHAJAw%2FKacfIJY5lkzsNHhGbzB%2FVUGvPaAtnWzpbTsyFwAKEf%2F0uJXFK2bjNTco6n2UdjLKl6BO4EyDhmKN9QDHHu%2FIAM4v91QEyWgybqsrQc2XnF1DMEQJfD%2Fb0EAnp%2BjqyGW9L9iPrytlPAeUTkXLp4rQPPTFaGOioEBF8LxprslWOKXODi8V5GhB4SjWw8KehGjdnQq5Yd7%2FPZUL8HgrdqHQib7%2FPzB8QUI%2FoSJQY1pJ9AWbK5JS%2BeWoFl8FCDYwj7Ztmw727o4zsKEh13YqqbNBWgrruSwnjZDWOZhTP2qzTA%3D%3D#polycard_client=search-desktop&is_advertising=true&searchVariation=MLU39333309&backend_model=sup_pads_rk_ent_v3_retsys&search_layout=grid&position=51&type=pad&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU1096421742&sid=search",
+      "link": "https://click1.mercadolibre.com.uy/mclics/clicks/external/MLU/count?a=t0x%2BXRxh1MNkF7DGuSyIE56UJHij676XHvf6cR8lfCSOrbjZXumkwSbK9QnRsZdQrVB2hb639RwDb4JSj9QkaGhOfzdxF1yz3x3ibdAAVT9AgUgjPdFqBQK4voVQFmgPXWYwYjLuJfmL4n9HebgKHUDxUH0Al%2F1wamIr5TLW43hn7gm5EfLDkaL1NvtfL92PFaBKahQZMtHtaQrVCoB9e6WFIVivAw%2BOZuvoJnmqYt2H7fJyvXOl33wJL%2BZ%2FqJq4qyqPFe%2BUwSMLhw5RqnMewz8UQ%2B6KCrrl3f8vhOS2f2FJVXv5t3IY%2B2T8gDdF%2F1ofWVxPFsKtixrNQjZOuMOsavqfqH0cem%2FR%2F%2FWkDc%2BTfHjRHJ3Ca6c7EtQ4URJzeJ3iKL%2BXM7AXMF%2FyZSiCR%2Bd%2FY3tOdR1H1M3O%2Bw4p9BE1KyUHvmTuoiDVE3KBUF%2Bn%2FsBb1Ef1tyLwTpqFaWG7LN6SnEzzqQ1jaxlSNG3zerqw7rag9%2F5dn%2BGPNaBR8DvvgbOTSEvN6YQI%2F4ECto1aCmPDKpLswdMahCVnzy9T3oChvnD%2B8kY%2FfFgsRTVIN5dNFKOB55LKdMa4SP00S8jYIHXtx50ZFAER4h5MGTw0BYJdXM7voJbhxx9AAbHlO4837DEx%2Fv6hNiMka%2FP9cCFBEWE1j0VY6q0HXJ8NBPuQFfT7E109Xjuy5dsJzkJDh864qF0ZtaLxYAH%2BLxxBWYPO8IQ2ySo%2B8fGoONS5FReSTb5bT684SKUuokPHmi3vlt93hWfMFfdf4xoIvCFb%2BK3sjMBO425sgpxhFevlYHFQ%2FqIkj2nUWdWCpR1LWi525ZoIFyDzSE7FzSmPTbZjWj7jDOjcBIRtk%2Bl2oh7yS6SzTz6x5YHxN0sBNrojsS4FNamADMJGxhe2d%2Bhw3KOI8cjapLHsf1DAhnwmAMRIH%2FMqOFHkE6qwj8IkhhMUEx%2FRyLz2N36KUSok40jPPyf7ThXg8g%3D%3D#polycard_client=search-desktop&is_advertising=true&searchVariation=MLU39333309&backend_model=sup_pads_rk_ent_v3_retsys&search_layout=grid&position=51&type=pad&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU1096421742&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_779642-MLU78413744379_082024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -562,7 +576,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_842026-CBT107835344705_022026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1189228620": {
       "seller_name": "CAAAD7314725",
@@ -573,7 +588,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_716562-CBT47642630017_092021-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1195244678": {
       "seller_name": "CAAAD7314725",
@@ -584,7 +600,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_996851-CBT54443077672_032023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1195360776": {
       "seller_name": "CAAAD7314725",
@@ -595,7 +612,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_983394-CBT86999050688_072025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1200013180": {
       "seller_name": "CAAAD7314725",
@@ -606,7 +624,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_694896-CBT83926090943_042025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1204447454": {
       "seller_name": "CAAAD7314725",
@@ -617,7 +636,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_638989-CBT104373206501_012026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1209860434": {
       "seller_name": "CAAAD7314725",
@@ -628,7 +648,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_684732-CBT94007372257_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1223587858": {
       "seller_name": "CAAAD7314725",
@@ -639,7 +660,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_759166-MLM103276709522_012026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU1230422698": {
       "seller_name": "CAAAD7314725",
@@ -650,14 +672,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_653287-CBT109025644493_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU445554184": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU445554184",
       "title": "Destornillador De Precisión Desarmador  - Electroimporta -",
       "price": 290,
-      "link": "https://www.mercadolibre.com.uy/destornillador-32-en-1-piezas-imantado/p/MLU2048039892#polycard_client=search-desktop&search_layout=grid&position=20&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU445554184&sid=search",
+      "link": "https://www.mercadolibre.com.uy/destornillador-32-en-1-piezas-imantado/p/MLU2048039892#polycard_client=search-desktop&search_layout=grid&position=19&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU445554184&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_827971-MLU70373049093_072023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -668,7 +691,7 @@
       "item_id": "MLU450892491",
       "title": "Heladera James Jm560 429 Lts Dispensador No Frost Dark Dimm",
       "price": 872,
-      "link": "https://www.mercadolibre.com.uy/heladera-james-jm560-429-lts-dispensador-no-frost-dark-dimm/up/MLUU2434748403#polycard_client=search-desktop&search_layout=grid&position=38&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU450892491&sid=search",
+      "link": "https://www.mercadolibre.com.uy/heladera-james-jm560-429-lts-dispensador-no-frost-dark-dimm/up/MLUU2434748403#polycard_client=search-desktop&search_layout=grid&position=37&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU450892491&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_921651-MLU71834015942_092023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -683,7 +706,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_987040-MLU74394078422_022024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU452112799": {
       "seller_name": "CAAAD7314725",
@@ -694,7 +718,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_608534-MLU74497314933_022024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU466599437": {
       "seller_name": "CAAAD7314725",
@@ -705,7 +730,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_773002-MLU83155590145_032025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU467220431": {
       "seller_name": "CAAAD7314725",
@@ -716,7 +742,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_682069-MLU41138769094_032020-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU469386731": {
       "seller_name": "CAAAD7314725",
@@ -727,7 +754,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_887521-MLU69155632230_042023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU474902154": {
       "seller_name": "CAAAD7314725",
@@ -738,7 +766,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_876857-MLU72903688604_112023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU477572237": {
       "seller_name": "CAAAD7314725",
@@ -749,7 +778,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_750260-MLU73290235460_122023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU477856019": {
       "seller_name": "CAAAD7314725",
@@ -760,7 +790,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_857265-MLU74610612785_022024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU478185607": {
       "seller_name": "CAAAD7314725",
@@ -771,7 +802,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_758387-MLU107941557302_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU479302411": {
       "seller_name": "CAAAD7314725",
@@ -782,7 +814,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_726633-MLU75070247928_032024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU479490654": {
       "seller_name": "CAAAD7314725",
@@ -793,7 +826,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_679935-MLU92709870793_092025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU480321562": {
       "seller_name": "CAAAD7314725",
@@ -804,7 +838,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_979242-MLU46482817983_062021-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU480793861": {
       "seller_name": "CAAAD7314725",
@@ -815,7 +850,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_659370-MLU101919792303_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU603775273": {
       "seller_name": "CAAAD7314725",
@@ -826,7 +862,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_853554-MLU48124217259_112021-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU603775290": {
       "seller_name": "CAAAD7314725",
@@ -837,7 +874,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_928511-MLU48124386071_112021-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU604014861": {
       "seller_name": "CAAAD7314725",
@@ -848,7 +886,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_843828-MLU96892098544_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU619817643": {
       "seller_name": "CAAAD7314725",
@@ -859,7 +898,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_812210-MLU77739751013_072024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU619837071": {
       "seller_name": "CAAAD7314725",
@@ -870,7 +910,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_834643-MLU73934278324_012024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU621560447": {
       "seller_name": "CAAAD7314725",
@@ -881,7 +922,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_921739-MLU52352218265_112022-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU622389983": {
       "seller_name": "CAAAD7314725",
@@ -892,14 +934,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_821675-MLU88994561905_072025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU629190255": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU629190255",
       "title": "Bolsa De Hidratación 1.5  Litros Running Ciclismo",
       "price": 420,
-      "link": "https://www.mercadolibre.com.uy/naturehike-reservorio-de-hidratacion-15l/p/MLU2059754320#polycard_client=search-desktop&search_layout=grid&position=23&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU629190255&sid=search",
+      "link": "https://www.mercadolibre.com.uy/naturehike-reservorio-de-hidratacion-15l/p/MLU2059754320#polycard_client=search-desktop&search_layout=grid&position=23&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU629190255&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_974458-MLU52518308900_112022-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -922,7 +965,7 @@
       "item_id": "MLU631868061",
       "title": "Desgracia, De Coetzee, J.m.. Editorial Literatura Random House, Tapa Blanda En Español",
       "price": 990.5,
-      "link": "https://www.mercadolibre.com.uy/desgracia-de-coetzee-jm-editorial-literatura-random-house-tapa-blanda-en-espanol/p/MLU25032843#polycard_client=search-desktop&search_layout=grid&position=48&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU631868061&sid=search",
+      "link": "https://www.mercadolibre.com.uy/desgracia-de-coetzee-jm-editorial-literatura-random-house-tapa-blanda-en-espanol/p/MLU25032843#polycard_client=search-desktop&search_layout=grid&position=45&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU631868061&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_833668-MLU70654978532_072023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -933,7 +976,7 @@
       "item_id": "MLU632037881",
       "title": "Relatos Biblicos, De Espino J. M Gonzalez. Serie N/a, Vol. Volumen Unico. Editorial Akal, Tapa Blanda, Edición 1 En Español, 2006",
       "price": 860,
-      "link": "https://click1.mercadolibre.com.uy/mclics/clicks/external/MLU/count?a=vfigQt9dTpVE39DPtwuwYZZ7qWazb1ze2Psy9X9w%2B88Hlh1OfNjYfN0fOWSqNgY4ryPGLBfY2CzXDF6E9Wu%2Bpf8Hudhzr3T3LwJUMag9CYS22msYyhenJ9jZhfEE7HsdqpSuxIa6B2SutFn5PtFAKl%2FIXARFjVisqUB3Q1%2B1j3TyKT96ylwXFwJu8Yw7q3LFm4pcUEqVHUVzJWhvs0SLyJsq448E5B0CX170LaWYk6bGWTY7G9fzDUNnmbtXJtlWfzbxpKRVdG4HZfpZ9qMnrc3P8fwqHX%2B3yy37mlX6MiBPUBT3DgHz1O6T3XBQW5VoM1LBh3uZROdhj9EiGfEou5YBi00wAxHBcV4NF4cwC24fuOAUehsiTRK5IbZv88QHlXrmhb2DSCw%2BZI7visbTBWbewk%2FhEZhkbqV4GPDB34NribwOsGiVnK1nHXCk8BQTwARYsHonVb3a1qIajKBx3YZ%2BVrieeTXT%2FSit1UtJJ403K7NQL4SP1ai9yzSuq7Ptj539D06bHD0%2BxcsvDpJxZuHVnyk4BUD%2BJ2HF%2BlznYPBIkK4BLItY5axVRIatIdWh%2B71sOirVX70xdr%2FtFg4KTNmOBAItbauCU0gLHuwNvWJgDJBrnebIMR6Kv2XXHPvFu8twSWeBMdF%2BJ2GQ%2FvNLzN8Vq4zhWOpL4WlFq5weA7Dtb5FZ7SCHd6NH7HSLw5JPk1j%2FfsGJ5EMipHuxCt0dOVjK1fyZLHaCrQAbdKLbIDn50Gxb0AdD0lRlUlK2dC6rUWS9HlmPyvGDwYsholgt6i5GQ04UBE8T6Bkyh1bAY6cvVXwZqc7QpNIVzdWKU%2F3rdvq2tRoXhoCeQeVlMKl32LIBmix97QwzMl2rLTzr%2BALPO8XCByGOkJC%2Fs5Cxo8k7CLSrltKqxGa5Uxr08hWRgzhhV2DXNOA4I5bUDO1v%2F46zerxvZ%2Fq7Kvm6Px65wwyEuhgVngF1g1P766PIbyomYU4iZlMPNnXwqMWkZScNe4ElH%2BAJRMiQlpqmPyubckhOslUv%2FCAJz46oQA%3D%3D#polycard_client=search-desktop&is_advertising=true&searchVariation=MLU24686333&backend_model=search-backend&search_layout=grid&position=15&type=pad&tracking_id=a1ebf815-b844-4722-9da0-4b66639d11c7&wid=MLU632037881&sid=search",
+      "link": "https://www.mercadolibre.com.uy/relatos-biblicos-de-espino-j-m-gonzalez-serie-na-vol-volumen-unico-editorial-akal-tapa-blanda-edicion-1-en-espanol-2006/p/MLU24686333#polycard_client=search-desktop&search_layout=grid&position=47&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU632037881&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_723561-MLA99986933685_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -944,7 +987,7 @@
       "item_id": "MLU632361646",
       "title": "Heladera James Rj 301 Inox Frio Seco Color Plateado",
       "price": 498.22,
-      "link": "https://www.mercadolibre.com.uy/heladera-james-rj-301-inox-frio-seco-color-plateado/p/MLU22319066#polycard_client=search-desktop&search_layout=grid&position=12&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU632361646&sid=search",
+      "link": "https://www.mercadolibre.com.uy/heladera-james-rj-301-inox-frio-seco-color-plateado/p/MLU22319066#polycard_client=search-desktop&search_layout=grid&position=12&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU632361646&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_705040-MLA99452729798_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -955,7 +998,7 @@
       "item_id": "MLU632985669",
       "title": "Heladeras con freezer James RJ 301 B frio seco clase A color blanco",
       "price": 482,
-      "link": "https://www.mercadolibre.com.uy/heladeras-con-freezer-james-rj-301-b-frio-seco-clase-a-color-blanco/p/MLU26181719#polycard_client=search-desktop&search_layout=grid&position=37&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU632985669&sid=search",
+      "link": "https://www.mercadolibre.com.uy/heladeras-con-freezer-james-rj-301-b-frio-seco-clase-a-color-blanco/p/MLU26181719#polycard_client=search-desktop&search_layout=grid&position=35&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU632985669&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_954452-MLA99966445363_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -970,7 +1013,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_779150-MLU54783031544_032023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU634078543": {
       "seller_name": "CAAAD7314725",
@@ -989,7 +1033,7 @@
       "item_id": "MLU635567431",
       "title": "Bolsas De Celofán Cierre Adhesivo 10,5x10cm - 50 Unidades",
       "price": 189,
-      "link": "https://www.mercadolibre.com.uy/bolsas-de-celofan-cierre-adhesivo-105x10cm--50-unidades/up/MLUU3234603515#polycard_client=search-desktop&search_layout=grid&position=30&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU635567431&sid=search",
+      "link": "https://www.mercadolibre.com.uy/bolsas-de-celofan-cierre-adhesivo-105x10cm--50-unidades/up/MLUU3234603515#polycard_client=search-desktop&search_layout=grid&position=30&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU635567431&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_632845-MLU91353622868_092025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1004,14 +1048,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_670165-MLU94679260486_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU639722503": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU639722503",
       "title": "En Busca De Horizontes/ In Search Of Horizons, De Arthur Schnitzler. Editorial Grupo Anayaercial En Español",
       "price": 1260,
-      "link": "https://www.mercadolibre.com.uy/en-busca-de-horizontes-in-search-of-horizons-de-arthur-schnitzler-editorial-grupo-anayaercial-en-espanol/p/MLU35265529#polycard_client=search-desktop&search_layout=grid&position=33&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU639722503&sid=search",
+      "link": "https://www.mercadolibre.com.uy/en-busca-de-horizontes-in-search-of-horizons-de-arthur-schnitzler-editorial-grupo-anayaercial-en-espanol/p/MLU35265529#polycard_client=search-desktop&search_layout=grid&position=33&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU639722503&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_899366-MLA82432720151_022025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1026,14 +1071,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_678891-MLU78614917680_082024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU647765706": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU647765706",
       "title": "Agarre Manija Para Polea Reforzada Maquina Gym",
       "price": 590,
-      "link": "https://www.mercadolibre.com.uy/agarre-manija-para-polea-reforzada-maquina-gym/p/MLU2070392649#polycard_client=search-desktop&search_layout=grid&position=28&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU647765706&sid=search",
+      "link": "https://www.mercadolibre.com.uy/agarre-manija-para-polea-reforzada-maquina-gym/p/MLU2070392649#polycard_client=search-desktop&search_layout=grid&position=28&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU647765706&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_784208-MLU70124167301_062023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1044,7 +1090,7 @@
       "item_id": "MLU648514778",
       "title": "Searchi Christmas Dining Chair Covers Set Of 6,stretch Xmas",
       "price": 3900,
-      "link": "https://www.mercadolibre.com.uy/searchi-christmas-dining-chair-covers-set-of-6stretch-xmas/up/MLUU2443995926#polycard_client=search-desktop&search_layout=grid&position=36&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU648514778&sid=search",
+      "link": "https://www.mercadolibre.com.uy/searchi-christmas-dining-chair-covers-set-of-6stretch-xmas/up/MLUU2443995926#polycard_client=search-desktop&search_layout=grid&position=36&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU648514778&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_605605-MLU70253780973_072023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1055,7 +1101,7 @@
       "item_id": "MLU648740623",
       "title": "Hanye Bloques Construcción Flexibles Avioneta 73 Piezas Plástico +5 Años",
       "price": 469.1,
-      "link": "https://www.mercadolibre.com.uy/hanye-bloques-construccion-flexibles-avioneta-73-piezas-plastico-5-anos/p/MLU45385435#polycard_client=search-desktop&search_layout=grid&position=35&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU648740623&sid=search",
+      "link": "https://www.mercadolibre.com.uy/hanye-bloques-construccion-flexibles-avioneta-73-piezas-plastico-5-anos/p/MLU45385435#polycard_client=search-desktop&search_layout=grid&position=34&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU648740623&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_755883-MLA99482300352_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1066,7 +1112,7 @@
       "item_id": "MLU651519938",
       "title": "Bloques Construcción Marble Run Carrera De Canicas 110piezas Cantidad De Piezas 110",
       "price": 1949.41,
-      "link": "https://www.mercadolibre.com.uy/bloques-construccion-marble-run-carrera-de-canicas-110piezas-cantidad-de-piezas-110/p/MLU25336363#polycard_client=search-desktop&search_layout=grid&position=44&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU651519938&sid=search",
+      "link": "https://www.mercadolibre.com.uy/bloques-construccion-marble-run-carrera-de-canicas-110piezas-cantidad-de-piezas-110/p/MLU25336363#polycard_client=search-desktop&search_layout=grid&position=41&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU651519938&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_701979-MLA91652552032_092025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1129,7 +1175,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_853610-MLA99453897686_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU654100383": {
       "seller_name": "CAAAD7314725",
@@ -1140,14 +1187,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_806510-MLU98485584465_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU654100441": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU654100441",
       "title": "Máquina De Vibración Merach Para Ejercicio En Casa.",
       "price": 11856,
-      "link": "https://www.mercadolibre.com.uy/maquina-de-vibracion-merach-para-ejercicio-en-casa/up/MLUU3561531013#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=b28ddc79-285b-4255-acb8-b39e7c682d87&wid=MLU654100441&sid=search",
+      "link": "https://www.mercadolibre.com.uy/maquina-de-vibracion-merach-para-ejercicio-en-casa/up/MLUU3561531013#polycard_client=search-desktop&search_layout=grid&position=49&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU654100441&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_768742-MLU98016802828_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1158,7 +1206,7 @@
       "item_id": "MLU654113207",
       "title": "Entrenador De Muslos Y Suelo Pélvico Rosa Para Mujeres",
       "price": 3167.7,
-      "link": "https://click1.mercadolibre.com.uy/mclics/clicks/external/MLU/count?a=lhFxB1FKdKw1o6eUY1lwZ5zQH4%2ByisxFzcBOgVAP4cjyN48frr46YmbDZibQBDwCdJ%2FmKvz6%2Bfnhmau307UdzaCL2U942%2FuKE3w7SOPWUL%2Fu9SsSLG28IaZP6L7L%2FNeu5JwGR9xzzwl2bVhsbj7%2BJpxiPELnAYBZ2rWmQ2%2BdEB%2FQJmjaxgZo4A0xYsUUsgvFCmYGvoynRY8eKzx2IYZhBEk4OJOwMrmCM833jIYhfspR%2FaWag1PV%2FaG56%2Br%2Fd5MkInRaXwBOnsgntzNLDpmWk4Az6IghK%2BoHIg3ByMR4Vz0QtwEGG001HsSWPwvBYauCeQUVBgaUqhPaxOZkRw3jtNYKcEm4hc%2Bm%2B8XQmwEkxmXtAz7KnkJ4V3Vw4yy3BqTXuW6RCOjJo0l1STtbFTmZcV1Zp3oYzkZEbQ8Zvmxl5CoA%2FCzIPxVpuqk22Fm8WYHhajS1tXOz9o6PbzmkOSjTufa28ueDFbCiokVYN9nGCwxdYJe2JBTLzBSeTTsdcRBmaAgLFlnrW3rvXnPAKbZ6byefedcYl7bTGUEanGxUrZQVeZ334dFAIcvpwgPiboA%2BFMOVYM%2BiMfIpuqLHxIaClCCCpHeQauLZdhOYVYUjlv5DXdvxplyyNJraeCi%2F%2BHIjGbg4aNAF6Yp8ng4aG%2FcGwbOq6aBYw76WyBe6kkR0dwDaeF3p7rBoX%2Fq6oFdWeb33w8tKYRdizaKffiyWXJjYnv%2FOjlNjUOByEeHifjCjJR2Mpo9jaFMnblnueDH72xjXXOWYDLlurN7TBhdIZFnkcXAEDZofAX7bnps1iwdgWPREr3e%2B%2FuzQl6GxgC622RPFiMhdypMaqRMTBk88qtxC29eNQppLjcnrZdmQrIBiuu3Qtg6xVSpawt06U9PexPrb1rIRVKTC9tVx5buhPA1AmO87G3lgmPH1lwvPlH34k%2BuqKNaH7mmiPypdfj0gr4dli5c%3D#polycard_client=search-desktop&is_advertising=true&searchVariation=MLUU3561769619&backend_model=search-backend&search_layout=grid&position=16&type=pad&tracking_id=a1ebf815-b844-4722-9da0-4b66639d11c7&wid=MLU654113207&sid=search",
+      "link": "https://www.mercadolibre.com.uy/entrenador-de-muslos-y-suelo-pelvico-rosa-para-mujeres/up/MLUU3561769619#polycard_client=search-desktop&search_layout=grid&position=50&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU654113207&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_608209-MLU98500011475_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1173,14 +1221,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_941680-MLU98026001150_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU654187749": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU654187749",
       "title": "Máquina Elíptica Merach 12 Velocidades Silenciosa Portátil N",
       "price": 11195,
-      "link": "https://www.mercadolibre.com.uy/maquina-eliptica-merach-12-velocidades-silenciosa-portatil-n/up/MLUU3562163761#polycard_client=search-desktop&search_layout=grid&position=47&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU654187749&sid=search",
+      "link": "https://www.mercadolibre.com.uy/maquina-eliptica-merach-12-velocidades-silenciosa-portatil-n/up/MLUU3562163761#polycard_client=search-desktop&search_layout=grid&position=46&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU654187749&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_957244-MLU98062171056_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1195,7 +1244,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_619020-MLU98348763708_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU654360117": {
       "seller_name": "CAAAD7314725",
@@ -1206,14 +1256,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_962923-MLU99835505805_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU655739666": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU655739666",
       "title": "Bloques De Construcción Magnéticos Coloridos Grandes 52 Pzas",
       "price": 2349.41,
-      "link": "https://www.mercadolibre.com.uy/bloques-de-construccion-magneticos-coloridos-grandes-52-pzas/p/MLU23096332#polycard_client=search-desktop&search_layout=grid&position=41&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU655739666&sid=search",
+      "link": "https://www.mercadolibre.com.uy/bloques-de-construccion-magneticos-coloridos-grandes-52-pzas/p/MLU23096332#polycard_client=search-desktop&search_layout=grid&position=40&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU655739666&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_758506-MLA99937509101_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1228,7 +1279,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_898108-CBT83568631347_042025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU656373256": {
       "seller_name": "CAAAD7314725",
@@ -1239,7 +1291,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_995266-MLA82435691445_022025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU656489087": {
       "seller_name": "CAAAD7314725",
@@ -1262,7 +1315,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_770027-CBT71294655821_082023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU658093531": {
       "seller_name": "CAAAD7314725",
@@ -1273,7 +1327,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_718746-CBT89816805439_082025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU659052015": {
       "seller_name": "CAAAD7314725",
@@ -1284,7 +1339,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_630759-CBT83153113130_032025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU659465991": {
       "seller_name": "CAAAD7314725",
@@ -1295,7 +1351,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_985991-MLU91211261840_092025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU659671572": {
       "seller_name": "CAAAD7314725",
@@ -1318,7 +1375,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_868078-MLU100771698351_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU660518504": {
       "seller_name": "CAAAD7314725",
@@ -1329,7 +1387,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_671396-MLU52444641072_112022-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU660706109": {
       "seller_name": "CAAAD7314725",
@@ -1340,7 +1399,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_970089-CBT107489832913_022026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU661464057": {
       "seller_name": "CAAAD7314725",
@@ -1351,7 +1411,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_749711-MLU107043031410_022026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU662678467": {
       "seller_name": "CAAAD7314725",
@@ -1362,7 +1423,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_811190-CBT107193724446_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU665149105": {
       "seller_name": "CAAAD7314725",
@@ -1373,7 +1435,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_939620-CBT108253725019_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU665901043": {
       "seller_name": "CAAAD7314725",
@@ -1384,7 +1447,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_724557-CBT83705835087_042025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU665929409": {
       "seller_name": "CAAAD7314725",
@@ -1395,7 +1459,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_700417-MLU107595655600_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU666114891": {
       "seller_name": "CAAAD7314725",
@@ -1406,7 +1471,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_605328-MLU107613613040_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU666200419": {
       "seller_name": "CAAAD7314725",
@@ -1417,7 +1483,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_804998-CBT107610829504_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU666345108": {
       "seller_name": "CAAAD7314725",
@@ -1428,7 +1495,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_785080-MLU89647866097_082025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU674317990": {
       "seller_name": "CAAAD7314725",
@@ -1451,7 +1519,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_641145-MLU99705407154_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU676647456": {
       "seller_name": "CAAAD7314725",
@@ -1462,7 +1531,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_923018-MLA99421511946_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU676749536": {
       "seller_name": "CAAAD7314725",
@@ -1481,7 +1551,7 @@
       "item_id": "MLU678641200",
       "title": "Jarra Electrica - Ideal Auto150w",
       "price": 1070,
-      "link": "https://www.mercadolibre.com.uy/jarra-electrica-ideal-auto150w/p/MLU35558964#polycard_client=search-desktop&search_layout=grid&position=15&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU678641200&sid=search",
+      "link": "https://www.mercadolibre.com.uy/jarra-electrica-ideal-auto150w/p/MLU35558964#polycard_client=search-desktop&search_layout=grid&position=20&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU678641200&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_612380-MLA100003904107_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1496,7 +1566,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_807284-MLA99996655763_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU681399034": {
       "seller_name": "CAAAD7314725",
@@ -1519,7 +1590,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_776160-MLU91830296799_092025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU681900800": {
       "seller_name": "CAAAD7314725",
@@ -1530,7 +1602,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_902561-MLU97927328246_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU683263610": {
       "seller_name": "CAAAD7314725",
@@ -1541,7 +1614,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_921370-MLU75013486240_032024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU687463108": {
       "seller_name": "CAAAD7314725",
@@ -1552,7 +1626,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_675896-MLU108820696253_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU688231546": {
       "seller_name": "CAAAD7314725",
@@ -1563,7 +1638,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_923407-MLU78003327187_072024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU698934726": {
       "seller_name": "CAAAD7314725",
@@ -1574,7 +1650,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_651052-MLU69401226697_052023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU701716322": {
       "seller_name": "CAAAD7314725",
@@ -1585,7 +1662,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_888970-MLU90120001005_082025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU702274106": {
       "seller_name": "CAAAD7314725",
@@ -1596,7 +1674,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_850264-MLU83287587727_032025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU704333524": {
       "seller_name": "CAAAD7314725",
@@ -1607,14 +1686,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_691374-MLU81074038568_122024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU705907420": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU705907420",
       "title": "Bolsa Bolsita Celofán Cierre Adhesivo 11x17,5cm - 50unidades",
       "price": 230,
-      "link": "https://www.mercadolibre.com.uy/bolsa-bolsita-celofan-cierre-adhesivo-11x175cm--50unidades/up/MLUU2911544920#polycard_client=search-desktop&search_layout=grid&position=45&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU705907420&sid=search",
+      "link": "https://www.mercadolibre.com.uy/bolsa-bolsita-celofan-cierre-adhesivo-11x175cm--50unidades/up/MLUU2911544920#polycard_client=search-desktop&search_layout=grid&position=44&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU705907420&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_954797-MLU94565481246_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1629,14 +1709,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_822725-MLU90941177393_082025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU706578448": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU706578448",
       "title": "Rubor Maybelline Sunkisser Blush N°03 Sol Search",
       "price": 729.9,
-      "link": "https://www.mercadolibre.com.uy/rubor-maybelline-sunkisser-blush-n03-sol-search/up/MLUU2929871106#polycard_client=search-desktop&search_layout=grid&position=17&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU706578448&sid=search",
+      "link": "https://www.mercadolibre.com.uy/rubor-maybelline-sunkisser-blush-n03-sol-search/up/MLUU2929871106#polycard_client=search-desktop&search_layout=grid&position=17&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU706578448&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_743960-MLU107399967820_032026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1647,7 +1728,7 @@
       "item_id": "MLU706712678",
       "title": "Rubor Maybelline Sunkisser  N°03 Sol Search",
       "price": 765.5,
-      "link": "https://www.mercadolibre.com.uy/rubor-maybelline-sunkisser--n03-sol-search/up/MLUU2944940900#polycard_client=search-desktop&search_layout=grid&position=32&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU706712678&sid=search",
+      "link": "https://www.mercadolibre.com.uy/rubor-maybelline-sunkisser--n03-sol-search/up/MLUU2944940900#polycard_client=search-desktop&search_layout=grid&position=32&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU706712678&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_690681-MLU88998104825_072025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1658,7 +1739,7 @@
       "item_id": "MLU706942846",
       "title": "Pack Rubor Maybelline Sunkisser Blush N°12 + N°03 Sol Search",
       "price": 1298.8,
-      "link": "https://www.mercadolibre.com.uy/pack-rubor-maybelline-sunkisser-blush-n12-n03-sol-search/p/MLU45401920#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU706942846&sid=search",
+      "link": "https://www.mercadolibre.com.uy/pack-rubor-maybelline-sunkisser-blush-n12-n03-sol-search/p/MLU45401920#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU706942846&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_654121-MLA81600976774_012025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1681,7 +1762,7 @@
       "item_id": "MLU707425120",
       "title": "Rubor Líquido 03 Sol Search Sunkisser Maybelline",
       "price": 649.9,
-      "link": "https://www.mercadolibre.com.uy/rubor-liquido-03-sol-search-sunkisser-maybelline/up/MLUU2961821029#polycard_client=search-desktop&search_layout=grid&position=26&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU707425120&sid=search",
+      "link": "https://www.mercadolibre.com.uy/rubor-liquido-03-sol-search-sunkisser-maybelline/up/MLUU2961821029#polycard_client=search-desktop&search_layout=grid&position=26&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU707425120&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_949679-MLU81983808561_012025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1692,7 +1773,7 @@
       "item_id": "MLU708294790",
       "title": "Rubor Liquido Maybelline Sunkisser N°03 Sol Search",
       "price": 747.7,
-      "link": "https://www.mercadolibre.com.uy/rubor-liquido-maybelline-sunkisser-n03-sol-search/up/MLUU2979752228#polycard_client=search-desktop&search_layout=grid&position=21&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU708294790&sid=search",
+      "link": "https://www.mercadolibre.com.uy/rubor-liquido-maybelline-sunkisser-n03-sol-search/up/MLUU2979752228#polycard_client=search-desktop&search_layout=grid&position=21&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU708294790&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_686250-MLU82081566079_012025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1703,7 +1784,7 @@
       "item_id": "MLU708607938",
       "title": "Fundas Protectoras Para Sillas Parson SearchI A-384",
       "price": 4900,
-      "link": "https://www.mercadolibre.com.uy/fundas-protectoras-para-sillas-parson-searchi-a-384/p/MLU34099037#polycard_client=search-desktop&search_layout=grid&position=42&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU708607938&sid=search",
+      "link": "https://www.mercadolibre.com.uy/fundas-protectoras-para-sillas-parson-searchi-a-384/p/MLU34099037#polycard_client=search-desktop&search_layout=grid&position=39&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU708607938&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_941393-MLA95606862191_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1714,7 +1795,7 @@
       "item_id": "MLU709541524",
       "title": "Linterna De Largo Alcance+trípode Searchlight Recargable Usb",
       "price": 1059.9,
-      "link": "https://www.mercadolibre.com.uy/linterna-de-largo-alcancetripode-searchlight-recargable-usb/up/MLUU2989233410#polycard_client=search-desktop&search_layout=grid&position=4&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU709541524&sid=search",
+      "link": "https://www.mercadolibre.com.uy/linterna-de-largo-alcancetripode-searchlight-recargable-usb/up/MLUU2989233410#polycard_client=search-desktop&search_layout=grid&position=4&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU709541524&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_696158-MLU82158011145_012025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1725,7 +1806,7 @@
       "item_id": "MLU711584058",
       "title": "Elmer Search And Fin Colours, De David Mckee. Editorial Walker Books En Español",
       "price": 990.7,
-      "link": "https://www.mercadolibre.com.uy/elmer-search-and-fin-colours-de-david-mckee-editorial-walker-books-en-espanol/p/MLU45782211#polycard_client=search-desktop&search_layout=grid&position=2&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU711584058&sid=search",
+      "link": "https://www.mercadolibre.com.uy/elmer-search-and-fin-colours-de-david-mckee-editorial-walker-books-en-espanol/p/MLU45782211#polycard_client=search-desktop&search_layout=grid&position=2&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU711584058&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_743850-MLA82187267772_022025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1740,7 +1821,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_681422-MLU82818991847_032025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU714703358": {
       "seller_name": "CAAAD7314725",
@@ -1751,7 +1833,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_847473-MLU82582957718_032025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU715625332": {
       "seller_name": "CAAAD7314725",
@@ -1762,14 +1845,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_649728-MLA99451514406_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU715720456": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU715720456",
       "title": "Rubor Maybelline Sunkisser Tono Downtown Rush Tono Del Maquillaje Naranja Suave",
       "price": 620,
-      "link": "https://www.mercadolibre.com.uy/rubor-maybelline-sunkisser-tono-downtown-rush-tono-del-maquillaje-naranja-suave/p/MLU42460340#polycard_client=search-desktop&search_layout=grid&position=1&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU715720456&sid=search",
+      "link": "https://www.mercadolibre.com.uy/rubor-maybelline-sunkisser-tono-downtown-rush-tono-del-maquillaje-naranja-suave/p/MLU42460340#polycard_client=search-desktop&search_layout=grid&position=1&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU715720456&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_653627-MLA80073666120_102024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1780,7 +1864,7 @@
       "item_id": "MLU716702000",
       "title": "Bloques Construcción JDLT 42 Piezas Goma Blanda para Niños desde 3 Años",
       "price": 1079.61,
-      "link": "https://www.mercadolibre.com.uy/bloques-construccion-jdlt-42-piezas-goma-blanda-para-ninos-desde-3-anos/p/MLU42502992#polycard_client=search-desktop&search_layout=grid&position=34&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU716702000&sid=search",
+      "link": "https://www.mercadolibre.com.uy/bloques-construccion-jdlt-42-piezas-goma-blanda-para-ninos-desde-3-anos/p/MLU42502992#polycard_client=search-desktop&search_layout=grid&position=31&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU716702000&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_892150-MLA99937502525_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1795,7 +1879,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_848330-MLA99479035672_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU724674286": {
       "seller_name": "CAAAD7314725",
@@ -1806,7 +1891,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_779604-MLA99990538663_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU726157808": {
       "seller_name": "CAAAD7314725",
@@ -1817,7 +1903,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_644938-MLA99560772996_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU726235756": {
       "seller_name": "CAAAD7314725",
@@ -1828,7 +1915,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_854234-MLA99453770602_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU728038598": {
       "seller_name": "CAAAD7314725",
@@ -1839,14 +1927,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_708403-MLU74161558082_012024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU729394448": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU729394448",
       "title": "Search For Sacred Hidden Knowledge, De Dolores Cannon. Editorial Ozark Mountain Publishing, Tapa Blanda En Inglés",
       "price": 2520.4,
-      "link": "https://www.mercadolibre.com.uy/search-for-sacred-hidden-knowledge-de-dolores-cannon-editorial-ozark-mountain-publishing-tapa-blanda-en-ingles/p/MLU24014325#polycard_client=search-desktop&search_layout=grid&position=25&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU729394448&sid=search",
+      "link": "https://www.mercadolibre.com.uy/search-for-sacred-hidden-knowledge-de-dolores-cannon-editorial-ozark-mountain-publishing-tapa-blanda-en-ingles/p/MLU24014325#polycard_client=search-desktop&search_layout=grid&position=25&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU729394448&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_718941-MLU70052642886_062023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1869,7 +1958,7 @@
       "item_id": "MLU752662890",
       "title": "Maca Peruana JM Vitamina Cápsulas 180g Sin Sabor Libre Gluten Vegano",
       "price": 899.9,
-      "link": "https://www.mercadolibre.com.uy/maca-peruana-jm-vitamina-capsulas-180g-sin-sabor-libre-gluten-vegano/p/MLU28468549#polycard_client=search-desktop&search_layout=grid&position=24&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU752662890&sid=search",
+      "link": "https://www.mercadolibre.com.uy/maca-peruana-jm-vitamina-capsulas-180g-sin-sabor-libre-gluten-vegano/p/MLU28468549#polycard_client=search-desktop&search_layout=grid&position=24&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU752662890&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_897602-MLA99405359430_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1880,7 +1969,7 @@
       "item_id": "MLU778745920",
       "title": "Linterna Led Linterna Con Herramientas . Search",
       "price": 999.9,
-      "link": "https://www.mercadolibre.com.uy/linterna-led-linterna-con-herramientas--search/up/MLUU3294618098#polycard_client=search-desktop&search_layout=grid&position=29&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU778745920&sid=search",
+      "link": "https://www.mercadolibre.com.uy/linterna-led-linterna-con-herramientas--search/up/MLUU3294618098#polycard_client=search-desktop&search_layout=grid&position=29&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU778745920&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_740298-MLU93672974164_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1895,14 +1984,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_637210-MLU89259078105_082025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU864527502": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU864527502",
       "title": "Guantes de Arquero Elite Sport Warrior JM para Adultos con Varillas Negras y Azules Talle 10",
       "price": 2390.88,
-      "link": "https://www.mercadolibre.com.uy/guantes-de-arquero-elite-sport-warrior-jm-para-adultos-con-varillas-negras-y-azules-talle-10/p/MLU56174153#polycard_client=search-desktop&search_layout=grid&position=19&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU864527502&sid=search",
+      "link": "https://www.mercadolibre.com.uy/guantes-de-arquero-elite-sport-warrior-jm-para-adultos-con-varillas-negras-y-azules-talle-10/p/MLU56174153#polycard_client=search-desktop&search_layout=grid&position=16&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU864527502&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_647896-MLA99498287984_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1913,7 +2003,7 @@
       "item_id": "MLU871469508",
       "title": "Guantes de Arquero Elite Sport Warrior JM Pro con Varillas y Corte Flat",
       "price": 2390.88,
-      "link": "https://www.mercadolibre.com.uy/guantes-de-arquero-elite-sport-warrior-jm-pro-con-varillas-y-corte-flat/p/MLU56684986#polycard_client=search-desktop&search_layout=grid&position=40&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU871469508&sid=search",
+      "link": "https://www.mercadolibre.com.uy/guantes-de-arquero-elite-sport-warrior-jm-pro-con-varillas-y-corte-flat/p/MLU56684986#polycard_client=search-desktop&search_layout=grid&position=38&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU871469508&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_662055-MLA99915375287_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1924,7 +2014,7 @@
       "item_id": "MLU871963504",
       "title": "Guante Arquero Golero Elite Sport Warrior Jm Color Negro/azul Talle 9",
       "price": 2390.88,
-      "link": "https://www.mercadolibre.com.uy/guante-arquero-golero-elite-sport-warrior-jm-color-negroazul-talle-9/p/MLU56632782#polycard_client=search-desktop&search_layout=grid&position=27&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU871963504&sid=search",
+      "link": "https://www.mercadolibre.com.uy/guante-arquero-golero-elite-sport-warrior-jm-color-negroazul-talle-9/p/MLU56632782#polycard_client=search-desktop&search_layout=grid&position=27&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU871963504&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_908100-MLA99505010944_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1935,7 +2025,7 @@
       "item_id": "MLU876487848",
       "title": "Guante Arquero Elite Sport Warrior JM Negro Azul Talle 8 Protección",
       "price": 2390.88,
-      "link": "https://www.mercadolibre.com.uy/guante-arquero-elite-sport-warrior-jm-negro-azul-talle-8-proteccion/p/MLU57576870#polycard_client=search-desktop&search_layout=grid&position=16&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU876487848&sid=search",
+      "link": "https://www.mercadolibre.com.uy/guante-arquero-elite-sport-warrior-jm-negro-azul-talle-8-proteccion/p/MLU57576870#polycard_client=search-desktop&search_layout=grid&position=15&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU876487848&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_983976-MLA99998064417_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1946,7 +2036,7 @@
       "item_id": "MLU876488082",
       "title": "Rubor Maybelline Sunkisser Sunkisser Blush líquido tono 03 sol search",
       "price": 729.9,
-      "link": "https://www.mercadolibre.com.uy/rubor-maybelline-sunkisser-sunkisser-blush-liquido-tono-03-sol-search/p/MLU45339826#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU876488082&sid=search",
+      "link": "https://www.mercadolibre.com.uy/rubor-maybelline-sunkisser-sunkisser-blush-liquido-tono-03-sol-search/p/MLU45339826#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU876488082&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_914932-MLA82299649782_022025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1957,7 +2047,7 @@
       "item_id": "MLU878972794",
       "title": "Libro La declaraciÃÂ³n universal de derechos humanos, de Fiess, J-M. Editorial Kókinos, tapa dura",
       "price": 690.7,
-      "link": "https://www.mercadolibre.com.uy/libro-la-declaracin-universal-de-derechos-humanos-de-fiess-j-m-editorial-kokinos-tapa-dura/p/MLU25611467#polycard_client=search-desktop&search_layout=grid&position=4&type=product&tracking_id=b28ddc79-285b-4255-acb8-b39e7c682d87&wid=MLU878972794&sid=search",
+      "link": "https://www.mercadolibre.com.uy/libro-la-declaracin-universal-de-derechos-humanos-de-fiess-j-m-editorial-kokinos-tapa-dura/p/MLU25611467#polycard_client=search-desktop&search_layout=grid&position=48&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU878972794&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_605542-MLU70919203349_082023-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -1984,7 +2074,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_826913-MLU95063401248_102025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU949800786": {
       "seller_name": "CAAAD7314725",
@@ -2007,7 +2098,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_966254-MLU98519565243_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU953130108": {
       "seller_name": "CAAAD7314725",
@@ -2018,7 +2110,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_837012-MLU98452753895_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU954515590": {
       "seller_name": "CAAAD7314725",
@@ -2029,7 +2122,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_806894-MLU97981962748_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU957519798": {
       "seller_name": "CAAAD7314725",
@@ -2040,7 +2134,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_821839-MLA90119619647_082025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU957608636": {
       "seller_name": "CAAAD7314725",
@@ -2051,7 +2146,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_782460-MLU98332685274_112025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU976418948": {
       "seller_name": "CAAAD7314725",
@@ -2062,7 +2158,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_672066-MLU100360495007_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU976419978": {
       "seller_name": "CAAAD7314725",
@@ -2073,14 +2170,15 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_812242-MLU100373498407_122025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU990471510": {
       "seller_name": "CAAAD7314725",
       "item_id": "MLU990471510",
       "title": "Heladera James Jm 560 Dark De Negro",
       "price": 1019,
-      "link": "https://www.mercadolibre.com.uy/heladera-james-jm-560-dark-de-negro/p/MLU26910066#polycard_client=search-desktop&search_layout=grid&position=7&type=product&tracking_id=1d1d6279-d4ca-4f76-9cd2-3bcee36fffb6&wid=MLU990471510&sid=search",
+      "link": "https://www.mercadolibre.com.uy/heladera-james-jm-560-dark-de-negro/p/MLU26910066#polycard_client=search-desktop&search_layout=grid&position=7&type=product&tracking_id=01cf052f-317c-4037-95c0-7664c565acc3&wid=MLU990471510&sid=search",
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_988377-MLA84850885707_052025-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
@@ -2095,7 +2193,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_620694-CBT104611664737_012026-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     },
     "MLU640454407": {
       "seller_name": "KAMBA CUA",
@@ -2109,6 +2208,17 @@
       "missing_days": 0,
       "baja_confirmada": false
     },
+    "MLU676446680": {
+      "seller_name": "KAMBA CUA",
+      "item_id": "MLU676446680",
+      "title": "Jarra Electrica - Ideal Auto150w",
+      "price": 1084.46,
+      "link": "https://www.mercadolibre.com.uy/jarra-electrica-ideal-auto150w/p/MLU35558964#polycard_client=search-desktop&search_layout=grid&position=20&type=product&tracking_id=4acc657e-e4a9-42b1-bdd8-b3e0311afef8&wid=MLU676446680&sid=search",
+      "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_612380-MLA100003904107_112025-E.webp",
+      "category": "",
+      "last_seen_date": "2026-03-24",
+      "missing_days": 0
+    },
     "MLU639304441": {
       "seller_name": "WILICARBONERO",
       "item_id": "MLU639304441",
@@ -2118,7 +2228,8 @@
       "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_624323-MLA74822153362_032024-E.webp",
       "category": "",
       "last_seen_date": "2026-03-24",
-      "missing_days": 0
+      "missing_days": 0,
+      "baja_confirmada": false
     }
   }
 }
