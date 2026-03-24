@@ -38,6 +38,8 @@ items_total = events.get("items_total", "?")
 fecha       = events.get("run_at", "?")
 
 is_bootstrap = len(nuevas) >= BOOTSTRAP_THRESHOLD
+run_contaminated = events.get("run_contaminated", False)
+contamination_errors = events.get("contamination_errors", [])
 
 
 def fmt_price(v):
@@ -76,6 +78,45 @@ def section_lines(items, kind="new"):
         lines.append(f"  ... y {len(items) - MAX_ITEMS_PER_SECTION} más (ver adjunto)")
     return lines
 
+
+# ── Si la corrida está contaminada, enviar alerta y salir ───────────────────
+if run_contaminated:
+    alert_lines = [
+        "MLU Monitor Lite - ALERTA: CORRIDA CONTAMINADA",
+        "",
+        f"Fecha/hora : {fecha}",
+        "",
+        "Se detectaron sellers con resultados cruzados (items compartidos entre sellers).",
+        "Los sellers contaminados fueron descartados. El estado previo fue conservado.",
+        "NO se reportan eventos de los sellers descartados.",
+        "",
+        "Sellers descartados por contaminacion:",
+    ]
+    for ce in contamination_errors:
+        alert_lines.append(f"  {ce}")
+    alert_lines += [
+        "",
+        "Otros errores de la corrida:",
+    ]
+    for e in errores:
+        if "CONTAMINACION" not in e:
+            alert_lines.append(f"  {e}")
+    alert_lines += [
+        "",
+        "Revisa los logs en: https://github.com/trexxeseba/mlu-monitor-lite/actions",
+    ]
+    alert_text = "\n".join(alert_lines)
+    msg_alert = MIMEMultipart()
+    msg_alert["Subject"] = "MLU Monitor Lite - ALERTA: corrida contaminada"
+    msg_alert["From"]    = from_addr
+    msg_alert["To"]      = to_addr
+    msg_alert.attach(MIMEText(alert_text, "plain", "utf-8"))
+    with smtplib.SMTP(host, port) as s:
+        s.starttls()
+        s.login(username, password)
+        s.sendmail(from_addr, [to_addr], msg_alert.as_bytes())
+    print("Email de alerta de contaminacion enviado.")
+    raise SystemExit(0)
 
 # ── Cuerpo del email ──────────────────────────────────────────────────────────
 body_lines = [
