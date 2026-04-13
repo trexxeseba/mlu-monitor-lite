@@ -1,6 +1,6 @@
 # Reporte monitor Mercado Libre Uruguay
 
-Fecha de corrida: 2026-04-12
+Fecha de corrida: 2026-04-13
 
 ## Errores
 - CARSL: HTTP 429 en Scrapfly: {"config":{"asp":false,"auto_scroll":false,"body":null,"browser_brand":null,"cache":false,"cache_clear":false,"cache_ttl":86400,"correlation_id":null,"cost_budget":null,"country":"uy","debug":false,"dns":false,"enable_cdp_trace":false,"env":"LIVE","extract":null,"extraction_model":null,"extraction_m
